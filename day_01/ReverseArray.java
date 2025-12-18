@@ -8,7 +8,8 @@ public class ReverseArray {
         int arr[], rev[], n;
         System.out.println("Enter the size of the array: ");
         n=sc.nextInt();
-        arr=rev=new int[n];
+        arr=new int[n];
+        rev=new int[n];
         for(int i=0;i<n;i++){
             System.out.println("Enter element :");
             arr[i]=sc.nextInt();

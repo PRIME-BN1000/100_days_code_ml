@@ -3,7 +3,7 @@ package day_01;
 import java.util.Scanner;
 
 public class CheckSorted {
-    public static void main() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[], n, temp;
         System.out.println("Enter the size of the array: ");

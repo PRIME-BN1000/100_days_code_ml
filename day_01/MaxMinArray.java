@@ -3,7 +3,7 @@ package day_01;
 import java.util.Scanner;
 
 public class MaxMinArray {
-    public static void main() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[], n, max, min, i;
         System.out.println("Enter the size of the array : ");
