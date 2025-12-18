@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CheckSorted {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int arr[], n, temp;
+        int arr[], n;
         System.out.println("Enter the size of the array: ");
         n = sc.nextInt();
         arr = new int[n];
