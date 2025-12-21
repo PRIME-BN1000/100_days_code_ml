@@ -17,6 +17,13 @@ public class max_element {
                 a[i][j] = sc.nextInt();
             }
         }
+        System.out.println("The entered array is: ");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                System.out.print(a[i][j] + " ");
+            }
+            System.out.println();
+        }
         int max = a[0][0];
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
@@ -27,4 +34,5 @@ public class max_element {
         }
         System.out.println("The maximum element in the array is: " + max);
     }
+
 }
