@@ -34,5 +34,4 @@ public class max_element {
         }
         System.out.println("The maximum element in the array is: " + max);
     }
-
 }
