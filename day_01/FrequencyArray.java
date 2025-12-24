@@ -33,5 +33,6 @@ public class FrequencyArray {
                 System.out.println(arr[i] + "\t" + freq[i]);
             }
         }
+        sc.close();
     }
 }

@@ -33,6 +33,7 @@ public class matrix_multiplication {
             }
             System.out.println();
         }
+        obj.close();
     }
     public static int[][] multiply(int a[][], int b[][], int m, int n) {
         int c[][] = new int[m][n];

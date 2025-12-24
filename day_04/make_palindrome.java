@@ -18,5 +18,6 @@ public class make_palindrome {
             String palindrome = input + rev;
             System.out.println("The palindrome is: " + palindrome);
         }
+        scanner.close();
     }
 }

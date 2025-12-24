@@ -16,6 +16,7 @@ public class arrange {
         System.out.println("The number of words in the string is: "+c);
         String ns=split(str,l);
         System.out.println("The arranged string is: "+ns);
+        sc.close();
     }
 
     public static String split(String s, int n){

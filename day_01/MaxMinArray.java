@@ -25,5 +25,6 @@ public class MaxMinArray {
         System.out.println();
         System.out.println("Maximum element is : "+max);
         System.out.println("Minimum element is : "+min);
+        sc.close();
     }
 }

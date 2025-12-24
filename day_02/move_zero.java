@@ -17,6 +17,7 @@ public class move_zero {
         for (int num : arr) {
             System.out.print(num + " ");
         }
+        sc.close();
     }
     public static void moveZeroes(int[] nums) {
         int lastNonZeroIndex = 0;

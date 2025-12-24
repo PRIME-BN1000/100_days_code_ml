@@ -18,5 +18,6 @@ public class removal {
             }
         }
         System.out.println("Filtered sentence: " + sentence);
+        scanner.close();
     }
 }

@@ -27,5 +27,6 @@ public class anagram {
             System.out.println("The words are anagrams.");
         else
             System.out.println("These words are not anagrams.");
+        sc.close();
     }
 }

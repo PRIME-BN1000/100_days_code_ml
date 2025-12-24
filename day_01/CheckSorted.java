@@ -31,6 +31,7 @@ public class CheckSorted {
             for(int i=0; i<n; i++) 
                 System.out.print(arr[i] + " ");
          }
+        sc.close();
     }
     public static void sort(int arr[], int n) {
         int temp;

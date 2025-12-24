@@ -16,5 +16,6 @@ public class non_repeating_string {
             }
         }
         System.out.println("The non-repeating characters are: " + result);
+        scanner.close();
     }
 }
